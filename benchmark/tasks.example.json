@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bug-01",
+    "category": "bugfix",
+    "prompt": "Fix the documented bug with a regression test. Do not change unrelated behavior.",
+    "acceptance": "Regression test fails before fix and passes after; relevant suite passes."
+  },
+  {
+    "id": "feat-01",
+    "category": "feature",
+    "prompt": "Implement the smallest maintainable change satisfying the repository issue and its acceptance criteria.",
+    "acceptance": "Feature works; edge cases are tested; public interfaces remain compatible unless requested."
+  },
+  {
+    "id": "refactor-01",
+    "category": "refactor",
+    "prompt": "Refactor the target module without changing observable behavior.",
+    "acceptance": "Existing tests pass; diff is scoped; behavior is unchanged."
+  },
+  {
+    "id": "test-01",
+    "category": "testing",
+    "prompt": "Add focused tests for the specified behavior and edge cases without altering production behavior unless a test reveals a bug.",
+    "acceptance": "Tests cover intended behavior and fail when the behavior is deliberately broken."
+  },
+  {
+    "id": "risk-01",
+    "category": "higher-risk",
+    "prompt": "Investigate and implement the requested change in the security-sensitive path. Explain invariants and verify conservatively.",
+    "acceptance": "Security invariants hold; relevant tests and checks pass; residual risks are documented."
+  }
+]

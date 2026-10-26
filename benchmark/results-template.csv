@@ -1,0 +1,1 @@
+task_id,condition,repo_commit,model,model_version,reasoning_effort,input_tokens,cached_input_tokens,output_tokens,tool_calls,cost_usd,duration_seconds,completed,acceptance_passed,tests_passed,review_score_1_to_5,notes
