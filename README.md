@@ -7,15 +7,23 @@ A portable coding-agent skill for Claude Code and Codex. It aims to reduce **tot
 - `skills/lean-engineer/SKILL.md` — canonical shared skill
 - `.claude/skills/lean-engineer/SKILL.md` — Claude Code project-level install
 - `.agents/skills/lean-engineer/SKILL.md` — Codex project-level install
+- `.cursor/rules/lean-engineer.mdc` — Cursor project rule
+- `.agents/rules/lean-engineer.md` — Antigravity project rule
 - `scripts/repo_map.py` — compact, dependency-free repository inventory
 - `scripts/summarize_tests.py` — concise test-log summarizer
 - `benchmark/` — task set, results schema, scoring rubric, and analysis script
 
-The two platform copies are intentionally identical. Keep the canonical file updated, then copy it to both platform locations.
+The Claude Code and Codex copies are intentionally identical. Cursor and Antigravity use their native rule formats with equivalent guidance and platform-specific metadata.
 
 ## Install
 
 For the complete installation, usage, verification, troubleshooting, and benchmarking instructions, see [INSTALLATION_AND_USAGE.md](INSTALLATION_AND_USAGE.md).
+
+Quick project install from GitHub:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/acefolioDev/lean-engineer/main/scripts/install.sh | bash
+```
 
 ### Project-level (recommended)
 
