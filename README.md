@@ -15,6 +15,8 @@ The two platform copies are intentionally identical. Keep the canonical file upd
 
 ## Install
 
+For the complete installation, usage, verification, troubleshooting, and benchmarking instructions, see [INSTALLATION_AND_USAGE.md](INSTALLATION_AND_USAGE.md).
+
 ### Project-level (recommended)
 
 From the root of your repository:
